@@ -3,7 +3,7 @@ name: Build and deploy JAR application to Azure Web App - toolkitdemo-java-app
 on:
   push:
     branches:
-      - main
+      - master
 env:
   JAVA_VERSION: '8'
   AZURE_WEB_APP: 'toolkitdemo-java-app'
